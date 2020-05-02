@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>80</x>
+      <y>90</y>
+      <w>230</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Player
+--
++object
+--
++getRollsCount():number
++rollDice():number
++isWinner():boolean
++isLoser():boolean
++play():boolean
++playOneGame():string
++playManyGames(number):number
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>120</x>
+      <y>430</y>
+      <w>140</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Die
+--
+-number
+--
++roll():number
++getValue():number
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>180</x>
+      <y>270</y>
+      <w>40</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=2
+</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+  </element>
+</diagram>
